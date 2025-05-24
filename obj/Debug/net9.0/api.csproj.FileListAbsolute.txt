@@ -103,3 +103,4 @@ c:\Users\aliso\OneDrive\Documentos\Curso\Course-.NET\obj\Debug\net9.0\refint\api
 c:\Users\aliso\OneDrive\Documentos\Curso\Course-.NET\obj\Debug\net9.0\api.pdb
 C:\Users\aliso\OneDrive\Documentos\Curso\Course-.NET\obj\Debug\net9.0\api.genruntimeconfig.cache
 C:\Users\aliso\OneDrive\Documentos\Curso\Course-.NET\obj\Debug\net9.0\ref\api.dll
+c:\Users\aliso\OneDrive\Documentos\Curso\Course-.NET\bin\Debug\net9.0\appsettings.Staging.json
