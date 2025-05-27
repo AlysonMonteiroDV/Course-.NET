@@ -1,7 +1,9 @@
 using System.Security.Cryptography.X509Certificates;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<ApplicationDbContext>();
 var app = builder.Build();
 var configuration = app.Configuration;
 ProductRepository.Init(configuration);
@@ -97,4 +99,22 @@ public class Product
 {
     public string Code { get; set; }
     public string Name { get; set; }
+}
+
+//onde fica as configurações para banco de dados
+//CLASSE CONFIGURADORA
+public class ApplicationDbContext : DbContext
+{
+    //faz o mapeamento para fazer a class "Product" virar uma tabela
+    // no braco de dados
+    public DbSet<Product> Products { get; set; }
+
+
+    // conectar no banco
+
+    protected override void OnConfiguring(DbContextOptionsBuilder options)
+        {
+        options.UseSqlServer("Server=localhost;Database=Products;User Id=sa;PassWord=@sql12019;MultipleActiveResultSets=true;Encrypt=YES;TrustServerCertificate=YES");
+}
+    
 }
