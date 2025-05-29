@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aliso\\OneDrive\\Documentos\\Curso\\Course-.NET\\api.csproj": {}
+    "c:\\Users\\aliso\\OneDrive\\Documentos\\Curso\\Course-.NET\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aliso\\OneDrive\\Documentos\\Curso\\Course-.NET\\api.csproj": {
+    "c:\\Users\\aliso\\OneDrive\\Documentos\\Curso\\Course-.NET\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aliso\\OneDrive\\Documentos\\Curso\\Course-.NET\\api.csproj",
+        "projectUniqueName": "c:\\Users\\aliso\\OneDrive\\Documentos\\Curso\\Course-.NET\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Users\\aliso\\OneDrive\\Documentos\\Curso\\Course-.NET\\api.csproj",
+        "projectPath": "c:\\Users\\aliso\\OneDrive\\Documentos\\Curso\\Course-.NET\\api.csproj",
         "packagesPath": "C:\\Users\\aliso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aliso\\OneDrive\\Documentos\\Curso\\Course-.NET\\obj\\",
+        "outputPath": "c:\\Users\\aliso\\OneDrive\\Documentos\\Curso\\Course-.NET\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aliso\\AppData\\Roaming\\NuGet\\NuGet.Config"
