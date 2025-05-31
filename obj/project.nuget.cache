@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z7BvWIDKicY=",
+  "dgSpecHash": "L5Rdk2U+gik=",
   "success": true,
-  "projectFilePath": "c:\\Users\\aliso\\OneDrive\\Documentos\\Curso\\Course-.NET\\api.csproj",
+  "projectFilePath": "C:\\Users\\aliso\\OneDrive\\Documentos\\Curso\\Course-.NET\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aliso\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\aliso\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
